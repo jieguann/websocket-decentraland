@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+
+<html>
+   <head>
+      
+      <script type = "text/javascript">
+         function WebSocketTest1() {
+            
+            if ("WebSocket" in window) {
+               var ws = new WebSocket("wss://websocket.jieguann.com/dragoncity");
+				
+               ws.onopen = function() {
+                  
+                  // Web Socket is connected, send data using send()
+                  ws.send(
+          JSON.stringify({
+            cube: 0,
+          })
+        )
+                  //alert("Message is sent...");
+               };
+         }
+      }
+
+
+       function WebSocketTest2() {
+            
+            if ("WebSocket" in window) {
+               var ws = new WebSocket("wss://websocket.jieguann.com/dragoncity");
+            
+               ws.onopen = function() {
+                  
+                  // Web Socket is connected, send data using send()
+                  ws.send(
+          JSON.stringify({
+            cube: 1,
+          })
+        )
+                  //alert("Message is sent...");
+               };
+         }
+      }
+
+       function WebSocketTest3() {
+            
+            if ("WebSocket" in window) {
+               var ws = new WebSocket("wss://websocket.jieguann.com/dragoncity");
+            
+               ws.onopen = function() {
+                  
+                  // Web Socket is connected, send data using send()
+                  ws.send(
+          JSON.stringify({
+            cube: 2,
+          })
+        )
+                  //alert("Message is sent...");
+               };
+         }
+      }
+
+       function WebSocketTest4() {
+            
+            if ("WebSocket" in window) {
+               var ws = new WebSocket("wss://websocket.jieguann.com/dragoncity");
+            
+               ws.onopen = function() {
+                  
+                  // Web Socket is connected, send data using send()
+                  ws.send(
+          JSON.stringify({
+            cube: 3,
+          })
+        )
+                  //alert("Message is sent...");
+               };
+         }
+      }
+
+
+       function WebSocketTest5() {
+            
+            if ("WebSocket" in window) {
+               var ws = new WebSocket("wss://websocket.jieguann.com/dragoncity");
+            
+               ws.onopen = function() {
+                  
+                  // Web Socket is connected, send data using send()
+                  ws.send(
+          JSON.stringify({
+            cube: 4,
+          })
+        )
+                  //alert("Message is sent...");
+               };
+         }
+      }
+
+
+       function WebSocketTest6() {
+            
+            if ("WebSocket" in window) {
+               var ws = new WebSocket("wss://websocket.jieguann.com/dragoncity");
+            
+               ws.onopen = function() {
+                  
+                  // Web Socket is connected, send data using send()
+                  ws.send(
+          JSON.stringify({
+            cube: 5,
+          })
+        )
+                  //alert("Message is sent...");
+               };
+         }
+      }
+
+
+       function WebSocketTest7() {
+            
+            if ("WebSocket" in window) {
+               var ws = new WebSocket("wss://websocket.jieguann.com/dragoncity");
+            
+               ws.onopen = function() {
+                  
+                  // Web Socket is connected, send data using send()
+                  ws.send(
+          JSON.stringify({
+            cube: 6,
+          })
+        )
+                  //alert("Message is sent...");
+               };
+         }
+      }
+      </script>
+		
+   </head>
+   
+   <body>
+      <div id = "sse">
+         <a href = "javascript:WebSocketTest1()">Cube 1</a>
+         <a href = "javascript:WebSocketTest2()">Cube 2</a>
+         <a href = "javascript:WebSocketTest3()">Cube 3</a>
+         <a href = "javascript:WebSocketTest4()">Cube 4</a>
+         <a href = "javascript:WebSocketTest5()">Cube 5</a>
+         <a href = "javascript:WebSocketTest6()">Cube 6</a>
+         <a href = "javascript:WebSocketTest7()">Cube 7</a>
+      </div>
+      
+   </body>
+</html>
