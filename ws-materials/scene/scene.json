@@ -7,12 +7,12 @@
     "name": "author-name",
     "email": ""
   },
-  "owner": "",
+  "owner": "0x3932E38328c6a8b8aB1b9252C8A4F123380f5C6b",
   "scene": {
     "parcels": [
-      "0,0"
+      "32,67"
     ],
-    "base": "0,0"
+    "base": "32,67"
   },
   "communications": {
     "type": "webrtc",
